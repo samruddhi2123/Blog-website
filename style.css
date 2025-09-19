@@ -1,0 +1,119 @@
+/* General Page Styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9fb;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #333, #444);
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Post Cards */
+div {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+div:hover {
+  transform: translateY(-2px);
+}
+
+/* Titles */
+h2, h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+h3 a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background: #0056b3;
+}
+
+/* Forms */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0,123,255,0.3);
+}
+
+/* Comments */
+.comment-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f3f6;
+  border-radius: 8px;
+}
+
+.comment-box b {
+  color: #333;
+}
